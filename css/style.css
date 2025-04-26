@@ -1,0 +1,78 @@
+* {
+  font-family: 'Inter', 'Segoe UI', or 'Roboto' !important;
+  ;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#hero {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #fff;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+#qualifications .card-align {
+  top: -0.625rem !important;
+}
+
+#qualifications .nav-pills .nav-link.active {
+  background-color: #c5c5c5 !important;
+  gap: 1rem;
+  border-radius: 6.25rem !important;
+  margin: 0.5rem !important;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+}
+
+#qualifications .nav-pills .nav-link {
+  background: #fff !important;
+  border-radius: 6.25rem;
+  color: #000 !important;
+  border: 0.0625rem solid #c5c5c5;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 6.25rem !important;
+  margin: 0.5rem !important;
+  padding: 0.5rem 1.5rem;
+
+}
+#qualifications .card-img{
+  width: 1rem;height:1rem;
+}
+#contact .contact-icon{
+  width: 2.5rem;
+}
+@media (max-width: 450px) {
+  nav{
+    height: 2rem;
+  }
+  #hero  {
+    margin-top:2rem;min-height: 100vh;
+  }
+
+}
