@@ -1,110 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
+   <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- META INFO -->
+        <meta name="author" content="Lavanya Chandran">
+        <meta name="description"
+            content="Lavanya Chandran is a Full Stack Developer with expertise in Angular, Tailwind CSS, PHP, MySQL, and Magento. Explore her portfolio and professional projects.">
+        <meta name="keywords"
+            content="Lavanya Chandran, UI Developer, Angular Developer, Tailwind CSS, PHP Developer, MySQL, Full Stack Developer, Magento Developer, Portfolio, Web Developer">
+        <title>Lavanya Chandran | Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" />
+            <!--fontawesome icon-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- META INFO -->
-    <meta name="author" content="Lavanya Chandran">
-    <meta name="description"
-        content="Lavanya Chandran is a Full Stack Developer with expertise in Angular, Tailwind CSS, PHP, MySQL, and Magento. Explore her portfolio and professional projects.">
-    <meta name="keywords"
-        content="Lavanya Chandran, UI Developer, Angular Developer, Tailwind CSS, PHP Developer, MySQL, Full Stack Developer, Magento Developer, Portfolio, Web Developer">
-    <title>Lavanya Chandran | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-        crossorigin="anonymous"></script>
-        <!--fontawesome icon-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!--animate-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
-</head>
+  <link href="css/all.min.css" rel="stylesheet"/>
+
+    </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+  
+    <nav class="navbar navbar-expand-lg navbar-dark text-bg-dark fixed-top py-3">
         <div class="container">
             <a class="navbar-brand" href="#hero" target="_blank">Lavanya C S</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="navbar-menu">
-                <ul class="navbar-nav ms-auto  fw-medium fs-6">
-                    <li class="nav-item"><a href="#hero" class="nav-link ">Home</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link ">About</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link ">Services</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link ">Projects</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link ">Skills</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link ">Contact</a></li>
+                <ul class="navbar-nav ms-auto text-white fw-medium fs-6">
+                    <li class="nav-item"><a href="#hero" class="nav-link text-white"><i class="fa-solid fa-house me-1"></i> Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-white"><i class="fa-solid fa-address-card me-1"></i> About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link text-white"><i class="fa-solid fa-building me-1"></i> Services</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link text-white"><i class="fa-solid fa-diagram-project me-1"></i> Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link text-white"><i class="fa-solid fa-list-check me-1"></i> Skills</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-white"><i class="fa-solid fa-address-book me-1"></i> Contact</a></li>
+                    <li class="nav-item"><a href="./pdf/Lavanya_CS.pdf" class="nav-link text-white" target="_blank"><i class="fa-solid fa-file me-1"></i> Resume</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--Hero Section-->
-    <section id="hero" class="d-flex align-items-center min-vh-75 bg-dark text-white position-relative">
-        <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
-        <div class="container position-relative z-1">
-          <div class="row align-items-center text-center text-md-start">
-            <div class="col-md-6">
-                <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInUp fs-1 fs-sm-3">Hello, I'm Lavanya Chandran</h1>
-                <p class="lead mb-3 animate__animated animate__fadeInUp animate__delay-1s fs-4 fs-sm-5">UI Developer | Angular | Tailwind CSS</p>
-                <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-2s fs-5 fs-sm-6">
-                  Passionate UI Developer with 5+ years of experience in building responsive web apps using
-                  Angular, PHP, Magento, and Tailwind CSS.
+    
+    <!-- Carousel Start -->
+ <!-- Carousel Start -->
+<section id="hero">
+    <div id="portfolioCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+  
+      <!-- Carousel Indicators (Dots) -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+  
+      <!-- Carousel Slides -->
+      <div class="carousel-inner">
+  
+        <!-- Slide 1 -->
+        <div class="carousel-item active position-relative">
+          
+          <div class="container-fluid">
+            <div class="row w-100 align-items-center text-center text-md-start">
+              <div class="col-12 col-md-6 p-5">
+                <h1 class="display-4 fw-bold animate__animated animate__fadeInUp">Hi, I'm Lavanya Chandran</h1>
+                <p class="lead animate__animated animate__fadeInUp animate__delay-1s">UI Developer | Angular | Tailwind CSS</p>
+                <p class="animate__animated animate__fadeInUp animate__delay-2s">
+                  Crafting elegant, user-friendly web apps with 5+ years of professional experience.
                 </p>
-                <a href="#projects" class="btn btn-outline-light btn-lg mb-4">View My Work</a>
-                
-
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="./images/aboutme.jpg" class="img-fluid rounded-circle shadow w-50 animate__animated animate__zoomIn" alt="Lavanya Chandran">
+                <a href="#projects" class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInUp animate__delay-3s cursor-pointer">View My Work</a>
+              </div>
+              <div class="col-12 col-md-6 text-center p-5">
+                <img src="./images/aboutme.jpg" class="img-fluid animate__animated animate__zoomIn" alt="Lavanya Chandran">
+              </div>
             </div>
           </div>
         </div>
-      </section>
+  
+        <!-- Slide 2 -->
+        <div class="carousel-item position-relative">
+          
+          <div class="container-fluid">
+            <div class="row w-100 align-items-center text-center text-md-start">
+              <div class="col-12 col-md-6 p-5">
+                <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Seamless User Experiences</h1>
+                <p class="lead animate__animated animate__fadeInDown animate__delay-1s">UX/UI Designer | Web Performance Expert</p>
+                <p class="animate__animated animate__fadeInDown animate__delay-2s">
+                  I create intuitive interfaces that are fast, accessible, and responsive across devices.
+                </p>
+                <a href="#contact" class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInDown animate__delay-3s cursor-pointer">Let's Connect</a>
+              </div>
+              <div class="col-12 col-md-6 text-center p-5">
+                <img src="./images/aboutme.jpg" class="img-fluid animate__animated animate__zoomIn" alt="Lavanya Chandran">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Slide 3 -->
+        <div class="carousel-item position-relative">
+          
+          <div class="container-fluid">
+            <div class="row w-100 align-items-center text-center text-md-start">
+              <div class="col-12 col-md-6 p-5">
+                <h1 class="display-4 fw-bold animate__animated animate__fadeInLeft">Let's Build Together</h1>
+                <p class="lead animate__animated animate__fadeInLeft animate__delay-1s">Open for Freelance Projects</p>
+                <p class="animate__animated animate__fadeInLeft animate__delay-2s">
+                  I'm available for freelance collaborations and innovative web design projects.
+                </p>
+                <a href="#contact" class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInLeft animate__delay-3s cursor-pointer">Hire Me</a>
+              </div>
+              <div class="col-12 col-md-6 text-center p-5">
+                <img src="./images/aboutme.jpg" class="img-fluid animate__animated animate__zoomIn" alt="Lavanya Chandran">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <!-- No Prev/Next buttons here -->
+  
+    </div>
+  </section>
+  <!-- Carousel End -->
+  
+    <!-- Carousel End -->
+  
+    
+      
       
     <!--About Section-->
     <section class="bg-light py-5" id="about">
         <div class="container">
-            <h2 class="text-center default-4 mb-4">About Me</h2>
+            <h2 class="text-center default-4 mb-4 section-title">About Me</h2>
             <div class="row align-items-center">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
-                    <img src="./images/aboutme.jpg" class="img-thumbnail rounded-xl shadow d-block mx-auto w-50"
-                        alt="Lavanya Chandran">
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 justify-content-start">
-                    <p>
-                        I'm <strong>Lavanya Chandran</strong>, a UI Developer with over <strong>5 years of
-                            experience</strong> in building responsive, user-friendly web applications. I specialize in
-                        front-end and back-end open-source technologies including <strong>Angular, PHP, MySQL, and
-                            Tailwind CSS</strong>.
-                    </p>
-                    <p>
-                        My background includes extensive work in the <strong>e-commerce domain</strong>, particularly
-                        with platforms like <strong>Magento</strong> and <strong>WooCommerce</strong>. I'm currently
-                        working full-time as a software consultant at <strong>Wegren Technologies</strong>.
-                    </p>
-                    <p>
-                        I'm passionate about clean code, smooth UI/UX, and constantly learning new technologies to
-                        improve both performance and design. When I'm not coding, I enjoy fitness, trying new recipes,
-                        and exploring productivity hacks!
-                    </p>
-
-                    <a href="./pdf/Lavanya_CS_2024-India-AfterWegren.pdf" target="_blank" class="btn btn-primary btn-md mt-2">Download
-                        Resume</a>
-                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                        <h2>Lavanya</h2>
+                        <h2>Chandran</h2>
+                        <h3>UI Developer</h3>
+                        <p class="home-description">As a passionate UI Developer with 5+ years of experience in front-end and
+                            full-stack open-source technologies, I aim to craft visually appealing and responsive web
+                            experiences. I specialize in Angular, Tailwind CSS, HTML5, CSS3, and JavaScript, bringing
+                            user-centered design to life with clean, efficient code. My goal is to continuously evolve as a
+                            developer, contribute to meaningful projects, and deliver exceptional digital solutions.</p>
+                        <div class="social-link">
+                            <ul class="d-flex gap-4 list-unstyled">
+                                <li><a href="https://www.linkedin.com/in/lavanya-cs/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/LavanyaCS" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                                <li><a href="mailto:lavanyachandranece@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="text-bg-dark w-fit p-3 rounded-2">
+                            <a class="text-white text-decoration-none" href="./pdf/Lavanya_CS.pdf" target="_blank">Download Resume <i class="mx-2 fa-solid fa-file"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+                        <div class="about-img">
+        <!--backgroud images goes here-->
+                    </div></div>
+             
+               
             </div>
         </div>
     </section>
     <section id="services" class="bg-white py-5">
         <div class="container">
-            <h2 class="text-center default-4 mb-4">Services</h2>
+            <h2 class="text-center default-4 mb-4 section-title">Services</h2>
             <div class="row align-items-center justify-content-center gap-4">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 py-3 bg-white shadow rounded-3 border-2 border-dark">
                     <div class=" p-3 justify-content-start ">
@@ -188,198 +261,352 @@
     </section>
     <section id="projects" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center default-4 mb-4">Projects</h2>
+            <h2 class="text-center default-4 mb-4 section-title">Projects</h2>
             <div class="row gap-x-4">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#citaaraModal" >
                         <img src="./images/citaara-web-step.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">Citaara</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                I designed the responsive UI for student dashboards showcasing their steps, stories, and
-                                progress journey.
-                                Built separate layouts for parent and child profiles with clear role-based views and
-                                intuitive navigation.
-                                Focused on a clean, mobile-friendly design using Tailwind CSS, ensuring accessibility
-                                across devices.
-                                Created components for progress bars, timelines, and story cards to enhance user
-                                engagement.
-                                Worked closely with the team to maintain design consistency and user-friendly
-                                experiences throughout the platform.
-                            </p>
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Citaara</h5>
                         </div>
                     </div>
+                  <!-- Citaara Modal -->
+<div class="modal fade" id="citaaraModal" tabindex="-1" aria-labelledby="citaaraModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="citaaraModalLabel">Citaara Project</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+          <p>I designed the responsive UI for student dashboards showcasing their steps, stories, and progress journey.</p>
+          <p>Built separate layouts for parent and child profiles with clear role-based views and intuitive navigation.</p>
+          <p>Focused on a clean, mobile-friendly design using Tailwind CSS, ensuring accessibility across devices.</p>
+          <p>Created components for progress bars, timelines, and story cards to enhance user engagement.</p>
+          <p>Worked closely with the team to maintain design consistency and user-friendly experiences throughout the platform.</p>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
 
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                        <img src="./images/guidemyfolio-web.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">Guide My Folio</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                As a UI Developer, I design and implement responsive and user-friendly interfaces.
-                                I ensure seamless integration of front-end technologies (HTML, CSS, JavaScript) with
-                                backend systems.
-                                I collaborate with designers to translate design concepts into clean, efficient code.
-                                My focus is on optimizing performance, accessibility, and ensuring a smooth user
-                                experience across all devices.
-                                I continuously test and improve UI elements to maintain consistency and enhance
-                                usability.
-                            </p>
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#guideMyFolioModal" >
+                        <img src="./images/guidemyfolio-web.png" alt="Guide My Folio - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Guide My Folio</h5>
                         </div>
                     </div>
+           <!-- Guide My Folio Modal -->
+<div class="modal fade" id="guideMyFolioModal" tabindex="-1" aria-labelledby="guideMyFolioModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="guideMyFolioModalLabel">Guide My Folio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+          <p>As a UI Developer, I design and implement responsive and user-friendly interfaces.</p>
+          <p>I ensure seamless integration of front-end technologies (HTML, CSS, JavaScript) with backend systems.</p>
+          <p>I collaborate with designers to translate design concepts into clean, efficient code.</p>
+          <p>My focus is on optimizing performance, accessibility, and ensuring a smooth user experience across all devices.</p>
+          <p>I continuously test and improve UI elements to maintain consistency and enhance usability.</p>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                        <img src="./images/meaningsphere-web.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">Meaning Sphere</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                As a UI Developer, my role involves designing and implementing intuitive, responsive
-                                user interfaces. I collaborate with UX/UI designers to bring design concepts to life
-                                using HTML, CSS, JavaScript, and frameworks like Angular and Bootstrap. I focus on
-                                creating accessible, user-friendly layouts that work seamlessly across different devices
-                                and browsers. Additionally, I optimize performance, ensuring fast load times and smooth
-                                interactions. I also test and iterate on the UI to enhance usability and maintain a
-                                consistent design throughout the application.
-                            </p>
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#meaningSphereModal" >
+                        <img src="./images/meaningsphere-web.png" alt="Meaningsphere - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Meaningsphere</h5>
                         </div>
                     </div>
+           <!-- MeaningSphere Modal -->
+<div class="modal fade" id="meaningSphereModal" tabindex="-1" aria-labelledby="meaningSphereModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="meaningSphereModalLabel">MeaningSphere</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+            <p>
+              As a UI Developer, my role involves designing and implementing intuitive, responsive user interfaces.</p>
+            <p>
+              I collaborate with UX/UI designers to bring design concepts to life using HTML, CSS, JavaScript,
+              and frameworks like Angular and Bootstrap.
+            </p><p> I focus on creating accessible, user-friendly layouts that work seamlessly across different devices and browsers.
+            </p>
+        <p>Additionally, I optimize performance, ensuring fast load times and smooth interactions.
+        </p><p>     I also test and iterate on the UI to enhance usability and maintain a consistent design throughout the application.
+            </p>
+          </div>
+          
+  
+      </div>
+    </div>
+  </div>
+  
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                        <img src="./images/nuhospitals-web.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">NU Hospitals</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                As a UI Developer for the NU Hospitals website, I designed and implemented responsive,
-                                user-friendly interfaces using Bootstrap and PHP.
-                                I ensured a seamless user experience by focusing on clean, accessible layouts that adapt
-                                to different screen sizes and devices.
-                                I collaborated with the design team to translate visual concepts into functional web
-                                components and pages.
-                                My role included optimizing the frontend performance for faster load times and smooth
-                                navigation.
-                                I also worked on maintaining consistent design elements across the website while
-                                ensuring the platform was intuitive and easy to navigate for users seeking healthcare
-                                services.
-                            </p>
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#nuHospitalModal" >
+                        <img  src="./images/nuhospitals-web.png"  alt="Nu Hospital - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">NU Hospital</h5>
                         </div>
                     </div>
+           <!-- nuHospital Modal -->
+<div class="modal fade" id="nuHospitalModal" tabindex="-1" aria-labelledby="nuHospitalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="nuHospitalModalLabel">NU Hospital</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+            <p>
+                As a UI Developer for the NU Hospitals website, I designed and implemented responsive,
+                user-friendly interfaces using Bootstrap and PHP.</p><p>
+                I ensured a seamless user experience by focusing on clean, accessible layouts that adapt
+                to different screen sizes and devices.</p><p>
+                I collaborated with the design team to translate visual concepts into functional web
+                components and pages.</p><p>
+                My role included optimizing the frontend performance for faster load times and smooth
+                navigation.</p><p>
+                I also worked on maintaining consistent design elements across the website while
+                ensuring the platform was intuitive and easy to navigate for users seeking healthcare
+                services.</p>
+          </div>
+          
+  
+      </div>
+    </div>
+  </div>
+  
                 </div>
+           
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                        <img src="./images/beurerindia-web.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">Beurer India</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                As a UI Developer for the Beurer India web application, I worked on the Magento-based
-                                platform, focusing primarily on UI development and configuration.
-                                I collaborated with the backend team to integrate dynamic content while ensuring a
-                                seamless user experience across different devices.
-                                My work involved designing responsive layouts, optimizing the frontend, and ensuring the
-                                site was visually appealing and user-friendly.
-                                I configured Magento settings to align with the brand's design standards and enhanced
-                                the shopping experience.
-                                I also worked on troubleshooting, ensuring the UI components functioned smoothly with
-                                the backend integration.
-                            </p>
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#beurerIndiaModal" >
+                        <img  src="./images/beurerindia-web.png"  alt="Beurer India - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Beurer India</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                        <img src="./images/arabcal-web.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">Arabcal</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                I successfully developed the Arabcal website using HTML5, CSS3, Bootstrap 3, Core PHP,
-                                JavaScript, and MySQL.
-                                My role involved creating responsive, user-friendly interfaces with clean, semantic code
-                                for a smooth experience across devices.
-                                I integrated Core PHP for backend logic and MySQL for efficient data management,
-                                ensuring the platform's scalability.
-                                I worked on the frontend using Bootstrap 3 for responsive design, ensuring seamless
-                                navigation and accessibility.
-                                My responsibilities also included optimizing the site for performance and
-                                troubleshooting any issues related to functionality and user experience.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                        <img src="./images/greenvalleycampus-web.png" alt="Citaara - Web Application"
-                            class="card-img-top img-fluid" />
-                        <div class="card-body">
-                            <h5 class="card-title">Green Valley Campus</h5>
-                            <p class="card-text d-none d-lg-flex">
-                                I successfully developed the Green Valley Campus website using HTML5, CSS3, Bootstrap 3,
-                                Core PHP, JavaScript, and MySQL.​
+           <!-- beurerIndia Modal -->
+<div class="modal fade" id="beurerIndiaModal" tabindex="-1" aria-labelledby="beurerIndiaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="beurerIndiaModalLabel">Beurer India</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+            <p>As a UI Developer for the Beurer India web application, I worked on the Magento-based platform, focusing primarily on UI development and configuration.</p>
 
-                                I designed and implemented responsive, user-friendly interfaces, ensuring a seamless
-                                experience across devices.​
-
-                                I utilized Core PHP for backend logic and MySQL for efficient data management, ensuring
-                                the platform's scalability.​
-
-                                I integrated JavaScript for interactive elements, enhancing user engagement and overall
-                                site performance.​
-                                I also focused on optimizing the site for performance and troubleshooting any issues
-                                related to functionality and user experience.
-                            </p>
-                        </div>
-                    </div>
+            <p>I collaborated with the backend team to integrate dynamic content while ensuring a seamless user experience across different devices.</p>
+          
+            <p>My work involved designing responsive layouts, optimizing the frontend, and ensuring the site was visually appealing and user-friendly.</p>
+          
+            <p>I configured Magento settings to align with the brand's design standards and enhanced the shopping experience.</p>
+          
+            <p>I also worked on troubleshooting, ensuring the UI components functioned smoothly with the backend integration.</p>
+            </div>
+          
+  
+      </div>
+    </div>
+  </div>
+           
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
-                    <div class="card h-100 shadow-sm rounded">
-                    <img src="./images/medisouq-web.png" alt="Citaara - Web Application" 
-                        class="card-img-top img-fluid cursor-pointer" />
-                    <div class="card-body">
-                        <h5 class="card-title">MediSouq</h5>
-                        <p class="card-text d-none d-lg-flex">
-                            I worked on the Medisouq website, focusing on UI design, theme customization, and web design to create a visually appealing and user-friendly platform.
-I customized the Magento theme and performed admin configuration to ensure seamless backend management.
-My role also involved simple module creation using Core PHP (MVC), enhancing functionality within the platform.
-I utilized HTML5, CSS3, and Bootstrap to ensure the website was responsive and accessible across devices.
-Additionally, I worked on optimizing the site's performance and improving the overall user experience.</p>
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#ArabcalModal" >
+                        <img  src="./images/arabcal-web.png"  alt="Arabcal - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Arabcal</h5>
+                        </div>
                     </div>
-                  
-    
+           <!-- Arabcal Modal -->
+<div class="modal fade" id="ArabcalModal" tabindex="-1" aria-labelledby="ArabcalModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="ArabcalModalLabel">Arabcal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+            <p>I successfully developed the Arabcal website using HTML5, CSS3, Bootstrap 3, Core PHP, JavaScript, and MySQL.</p>
+          
+            <p>My role involved creating responsive, user-friendly interfaces with clean, semantic code for a smooth experience across devices.</p>
+          
+            <p>I integrated Core PHP for backend logic and MySQL for efficient data management, ensuring the platform's scalability.</p>
+          
+            <p>I worked on the frontend using Bootstrap 3 for responsive design, ensuring seamless navigation and accessibility.</p>
+          
+            <p>My responsibilities also included optimizing the site for performance and troubleshooting any issues related to functionality and user experience.</p>
+          </div>
+                    
+  
+      </div>
+    </div>
+  </div>
+           
+
                 </div>
-                           </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#greenvalleyCampusModal" >
+                        <img  src="./images/greenvalleycampus-web.png"  alt="Green Valley Campus - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Green Valley Campus</h5>
+                        </div>
+                    </div>
+           <!-- greenvalleyCampus Modal -->
+<div class="modal fade" id="greenvalleyCampusModal" tabindex="-1" aria-labelledby="greenvalleyCampusModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="greenvalleyCampusModalLabel">Green Valley Campus</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+  
+        <div class="modal-body">
+            <p>I successfully developed the Green Valley Campus website using HTML5, CSS3, Bootstrap 3, Core PHP, JavaScript, and MySQL.</p>
+          
+            <p>I designed and implemented responsive, user-friendly interfaces, ensuring a seamless experience across devices.</p>
+          
+            <p>I utilized Core PHP for backend logic and MySQL for efficient data management, ensuring the platform's scalability.</p>
+          
+            <p>I integrated JavaScript for interactive elements, enhancing user engagement and overall site performance.</p>
+          
+            <p>I also focused on optimizing the site for performance and troubleshooting any issues related to functionality and user experience.</p>
+          </div>
+          
+                    
+  
+      </div>
+    </div>
+  </div>
+           
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
+                    <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#mediSouqModal" >
+                        <img  src="./images/medisouq-web.png"  alt="Medisouq - Web Application"
+                            class="card-img-top img-fluid h-100" />
+                        <div class="card-menu">
+                            <h5 class="card-title d-flex justify-content-center align-items-center w-100 h-100">Medisouq</h5>
+                        </div>
+                    </div>
+           <!-- mediSouq Modal -->
+<div class="modal fade" id="mediSouqModal" tabindex="-1" aria-labelledby="mediSouqModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+  
+        <div class="modal-header">
+          <h5 class="modal-title" id="mediSouqModalLabel">Medisouq</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>I worked on the Medisouq website, focusing on UI design, theme customization, and web design to create a visually appealing and user-friendly platform.</p>
+          
+            <p>I customized the Magento theme and performed admin configuration to ensure seamless backend management.</p>
+          
+            <p>My role also involved simple module creation using Core PHP (MVC), enhancing functionality within the platform.</p>
+          
+            <p>I utilized HTML5, CSS3, and Bootstrap to ensure the website was responsive and accessible across devices.</p>
+          
+            <p>Additionally, I worked on optimizing the site's performance and improving the overall user experience.</p>
+          </div>
+          
+                    
+  
+      </div>
+    </div>
+  </div>
+           
+
+                </div>
+                
                            
             </div>
         </div>
     </section>
     <section id="qualifications" class="bg-white py-5">
         <div class="container">
-            <h2 class="text-center default-4 mb-4">Qualifications</h2>
+            <h2 class="text-center default-4 mb-4 section-title">Qualifications</h2>
            
 
   <!-- Nav Tabs -->
   <ul class="nav nav-pills justify-content-center mb-4" id="qualificationTabs" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active fw-medium fs-5 text-black" id="experience-tab" data-bs-toggle="pill" data-bs-target="#experience" type="button" role="tab">Experience</button>
+      <button class="nav-link active fw-medium fs-5 text-black" id="experience-tab" data-bs-toggle="pill" data-bs-target="#experience" type="button" role="tab"><i class="fa-solid fa-briefcase me-2"></i>Experience</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link text-black fw-medium fs-5" id="education-tab" data-bs-toggle="pill" data-bs-target="#education" type="button" role="tab">Education</button>
+      <button class="nav-link text-black fw-medium fs-5" id="education-tab" data-bs-toggle="pill" data-bs-target="#education" type="button" role="tab"><i class="fa-solid fa-chalkboard me-2"></i> Education</button>
     </li>
   </ul>
 
   <!-- Tab Content -->
   <div class="tab-content d-flex justify-content-center align-items-center flex-column" id="qualificationTabsContent">
-   <!-- Education Tab -->
-   <div class="tab-pane fade show active" id="education" role="tabpanel">
+   <!-- Experience Tab -->
+    <div class="tab-pane fade show active" id="experience" role="tabpanel">
+      <div class="position-relative ms-4 border-start border-2 border-dark ">
+        <div class="mb-5 position-relative">
+          <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle card-img"></div>
+          <div class="ms-4 card-align position-relative">
+            <h5 class="fw-bold mb-1">Front-end Developer</h5>
+            <p class="mb-0">Wegren Technologies</p>
+            <small class="text-muted"><i class="bi bi-calendar3"></i> Mar 2022 – Dec 2024</small>
+          </div>
+        </div>
+        <div class="mb-5 position-relative">
+          <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle card-img"></div>
+          <div class="ms-4 card-align position-relative">
+            <h5 class="fw-bold mb-1">Web Developer</h5>
+            <p class="mb-0">Webeaz Technologies</p>
+            <small class="text-muted"><i class="bi bi-calendar3"></i> Oct 2018 – Nov 2019</small>
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle card-img"></div>
+          <div class="ms-4 card-align position-relative">
+            <h5 class="fw-bold mb-1">Software Developer</h5>
+            <p class="mb-0">Praistma Technologies</p>
+            <small class="text-muted"><i class="bi bi-calendar3"></i> Mar 2017 – Oct 2018</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Education Tab -->
+   <div class="tab-pane fade " id="education" role="tabpanel">
     <div class="position-relative ms-4 border-start border-2 border-dark">
       <div class="mb-5 position-relative">
-        <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle tab-img" ></div>
+        <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle card-img" ></div>
         <div class="ms-4 card-align position-relative">
           <h5 class="fw-bold mb-1">BE - Electronics and Communication Engineering</h5>
           <p class="mb-0">Anna University</p>
@@ -391,35 +618,7 @@ Additionally, I worked on optimizing the site's performance and improving the ov
 
     </div>
   </div>
-   <!-- Experience Tab -->
-    <div class="tab-pane fade" id="experience" role="tabpanel">
-      <div class="position-relative ms-4 border-start border-2 border-dark ">
-        <div class="mb-5 position-relative">
-          <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle tab-img"></div>
-          <div class="ms-4 card-align position-relative">
-            <h5 class="fw-bold mb-1">Front-end Developer</h5>
-            <p class="mb-0">Wegren Technologies</p>
-            <small class="text-muted"><i class="bi bi-calendar3"></i> Mar 2022 – Dec 2024</small>
-          </div>
-        </div>
-        <div class="mb-5 position-relative">
-          <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle tab-img"></div>
-          <div class="ms-4 card-align position-relative">
-            <h5 class="fw-bold mb-1">Web Developer</h5>
-            <p class="mb-0">Webeaz Technologies</p>
-            <small class="text-muted"><i class="bi bi-calendar3"></i> Oct 2018 – Nov 2019</small>
-          </div>
-        </div>
-        <div class="position-relative">
-          <div class="position-absolute top-0 start-0 translate-middle bg-dark rounded-circle tab-img"></div>
-          <div class="ms-4 card-align position-relative">
-            <h5 class="fw-bold mb-1">Software Developer</h5>
-            <p class="mb-0">Praistma Technologies</p>
-            <small class="text-muted"><i class="bi bi-calendar3"></i> Mar 2017 – Oct 2018</small>
-          </div>
-        </div>
-      </div>
-    </div>
+  
 
     
   </div>
@@ -429,7 +628,7 @@ Additionally, I worked on optimizing the site's performance and improving the ov
     </section>
     <section id="skills" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center default-4 mb-4">My Skills</h2>
+            <h2 class="text-center default-4 mb-4 section-title">My Skills</h2>
             <div class="row align-items-center justify-content-center">
                 <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-4">
                     <div class="bg-white rounded-3 p-3 text-center border-2 border-dark" data-bs-toggle="tooltip" title="Hypertext Markup Language">
@@ -463,119 +662,72 @@ Additionally, I worked on optimizing the site's performance and improving the ov
             </div>
         </div>
     </section>
-    <section id="contact" class="bg-white py-5">
+    <section id="contact" class="bg-white py-5 contact">
         <div class="container">
-            <h2 class="text-center default-4 mb-4">Contact</h2>
+            <h2 class="text-center default-4 mb-4 section-title">Contact</h2>
             <div class="container my-5">
-                <div class="row g-4 align-items-stretch">
-                    <!-- Contact Summary -->
-                    <div class="col-12 col-md-6">
-                        <div class="contact-summary">
-                            <!-- Email -->
-                            <div class="contact-item shadow-sm p-4 rounded mb-4 bg-light text-center">
-                                <img src="./images/icon/mail.png" alt="Mail Icon" class="mb-3 contact-icon" />
-                                <h4>Email</h4>
-                                <p>
-                                    <a href="mailto:lavanyachandranece@gmail.com" class="text-decoration-none">
-                                        lavanyachandranece@gmail.com
-                                    </a>
-                                </p>
-                                <p class="contact-item-info">
-                                    <a href="mailto:lavanyachandranece@gmail.com" class="btn btn-outline-primary btn-sm">
-                                        Write Message <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </p>
-                            </div>
+                <div class="container aos-init aos-animate" data-aos="fade" data-aos-delay="100">
+
+                    <div class="row gy-4">
             
-                            <!-- LinkedIn -->
-                            <div class="contact-item shadow-sm p-4 rounded mb-4 bg-light text-center">
-                                <img src="./images/icon/linkedin.png" alt="LinkedIn Icon" class="mb-3 contact-icon" />
-                                <h4>LinkedIn</h4>
-                                <p>
-                                    <a href="https://www.linkedin.com/in/lavanya-cs/" target="_blank" class="text-decoration-none">
-                                        Lavanya C S
-                                    </a>
-                                </p>
-                                <p class="contact-item-info">
-                                    <a href="https://www.linkedin.com/in/lavanya-cs/" class="btn btn-outline-primary btn-sm" target="_blank">
-                                        Write Message <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </p>
-                            </div>
+                      <div class="col-lg-4">
+                        <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fa-solid fa-location-dot flex-shrink-0"></i>
+                          <div>
+                            <h3>Address</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                          </div>
+                        </div><!-- End Info Item -->
             
-                            <!-- WhatsApp -->
-                            <div class="contact-item shadow-sm p-4 rounded bg-light text-center">
-                                <img src="./images/icon/whatsapp.png" alt="Whatsapp Icon" class="mb-3 contact-icon" />
-                                <h4>WhatsApp</h4>
-                                <p>
-                                    <a href="https://api.whatsapp.com/send?phone=9952770089&text=Hello, more information!"
-                                       target="_blank" class="text-decoration-none">
-                                        +91 9952770089
-                                    </a>
-                                </p>
-                                <p class="contact-item-info">
-                                    <a href="https://api.whatsapp.com/send?phone=9952770089&text=Hello, more information!"
-                                       class="btn btn-outline-primary btn-sm" target="_blank">
-                                        Write Message <i class="fa-solid fa-arrow-right"></i>
-                                    </a>
-                                </p>
+                        <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fa-solid fa-phone flex-shrink-0"></i>
+                          <div>
+                            <h3>Call Us</h3>
+                            <p>+1 5589 55488 55</p>
+                          </div>
+                        </div><!-- End Info Item -->
+            
+                        <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                          <i class="fa fa-envelope flex-shrink-0"></i>
+                          <div>
+                            <h3>Email Us</h3>
+                            <p>info@example.com</p>
+                          </div>
+                        </div><!-- End Info Item -->
+            
+                      </div>
+            
+                      <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" class="contact-form">
+                          <div class="row gy-4">
+                            <div class="col-md-6">
+                              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                             </div>
-                        </div>
+                        
+                            <div class="col-md-6">
+                              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                            </div>
+                        
+                            <div class="col-md-12">
+                              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                            </div>
+                        
+                            <div class="col-md-12">
+                              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                            </div>
+                        
+                            <div class="col-md-12 text-center">
+                              <button type="submit">Send Message</button>
+                            </div>
+                          </div>
+                        </form>
+                        
+                      </div><!-- End Contact Form -->
+            
                     </div>
             
-                    <!-- Contact Form -->
-                    <div class="col-12 col-md-6">
-                        <div class="contact-info p-4 shadow-sm bg-white rounded h-100">
-                            <h4 class="mb-4 text-center">Send a Message</h4>
-                            <form action="#" method="post">
-                                <div class="mb-3">
-                                    <label for="name" class="form-label">Name</label>
-                                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name..." required minlength="3"
-                                        pattern="[A-Za-z ]{3,}" title="Name must be at least 3 letters long and contain only letters and spaces.">
-                                </div>
-            
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email</label>
-                                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email address..." required>
-                                </div>
-            
-                                <div class="mb-3">
-                                    <label for="phone" class="form-label">Phone Number</label>
-                                    <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number..."
-                                        pattern="[0-9]{10}" title="Phone number must be 10 digits." required>
-                                </div>
-            
-                                <div class="mb-3">
-                                    <label class="form-label">Gender</label><br />
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gender" value="Male" id="male" required>
-                                        <label class="form-check-label" for="male">Male</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="gender" value="Female" id="female" required>
-                                        <label class="form-check-label" for="female">Female</label>
-                                    </div>
-                                </div>
-            
-                                <div class="mb-3">
-                                    <label for="subject" class="form-label">Subject</label>
-                                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Enter subject here..." required
-                                        minlength="5" title="Subject must be at least 5 characters long.">
-                                </div>
-            
-                                <div class="mb-3">
-                                    <label for="message" class="form-label">Message</label>
-                                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message..."
-                                        required minlength="10" title="Message must be at least 10 characters long."></textarea>
-                                </div>
-            
-                                <div class="text-center">
-                                    <button type="submit" class="btn btn-primary px-4">Submit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+                  </div>
+                
             </div>
             
         </div>
