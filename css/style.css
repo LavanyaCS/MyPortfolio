@@ -1,5 +1,10 @@
 * {
-  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif !important;
+  font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em / 1 "Font Awesome 6 Free";
+}
+.fab {
+  font-family: "Font Awesome 6 Brands" !important;
 }
 .section-title{
   font-size: 32px;
@@ -15,7 +20,7 @@
   width: 160px;
   height: 1px;
   background: 
-color-mix(in srgb, #272829, transparent 60%);
+color-mix(in srgb, #212529e8, transparent 60%);
   left: 0;
   right: 0;
   bottom: 1px;
@@ -27,7 +32,7 @@ color-mix(in srgb, #272829, transparent 60%);
   display: block;
   width: 60px;
   height: 3px;
-  background: #0563bb;
+  background: #212529e8;
   left: 0;
   right: 0;
   bottom: 0;
@@ -37,8 +42,14 @@ color-mix(in srgb, #272829, transparent 60%);
   cursor: pointer;
 }
 .navbar-dark,
-.bg-dark{
-  background: #272829 !important;
+.bg-dark-theme{
+  background-color: #212529e8 !important;
+}
+.navbar-nav .nav-link{
+  font-weight: normal;opacity: 0.85;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus{opacity: 1;
 }
 /* Hero Section */
 #hero {
@@ -93,17 +104,8 @@ color-mix(in srgb, #272829, transparent 60%);
   color: #fff;
 }
 
-/* Hide Carousel Controls (Optional) */
-.carousel-control-prev,
-.carousel-control-next {
-  display: none;
-}
-
 .w-fit {
   width: fit-content;
-}
-.rounded-md{
-  border-radius: 0.5rem !important;
 }
 #about .about-img {
   animation: profile_animate 8s ease-in-out 1s infinite;
@@ -115,7 +117,6 @@ color-mix(in srgb, #272829, transparent 60%);
   filter: grayscale(100%);
   height: 18rem;
   width: 18rem;
-  grid-column: span 5;
   justify-self: center;
   align-self: center;
 }
@@ -153,7 +154,7 @@ color-mix(in srgb, #272829, transparent 60%);
 
 /*Qualifications */
 #qualifications .card-align {
-  top: -0.625rem !important;
+  top: -0.75rem !important;
 }
 
 #qualifications .nav-pills .nav-link.active {
@@ -178,7 +179,31 @@ color-mix(in srgb, #272829, transparent 60%);
 #qualifications .card-img{
   width: 1rem;height:1rem;
 }
+/*Skills*/
+#skills .card {
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+}
 
+#skills .skill-icon {
+  width: 1.5rem;
+  margin-right: 0.5rem;background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #0d6efd; */
+}
+#skills .progress-bar {
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: white; /* optional: makes % text more readable */
+  border-radius: 10px;
+}
+
+#skills .progress {
+  height: 1rem;
+}
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -186,9 +211,10 @@ color-mix(in srgb, #272829, transparent 60%);
   margin-top: 40px;
 }
 
+.social-links .info-item i,
 .contact .info-item i {
-  color: #0563bb;
-  background: color-mix(in srgb, #0563bb, transparent 92%);
+  color: #212529e8;
+  background: color-mix(in srgb, #212529e8, transparent 92%);
   font-size: 20px;
   width: 44px;
   height: 44px;
@@ -213,8 +239,9 @@ color-mix(in srgb, #272829, transparent 60%);
   font-size: 14px;
 }
 
+.social-links .info-item:hover i,
 .contact .info-item:hover i {
-  background: #0563bb;
+  background: #212529e8;
   color: #ffffff;
 }
 
@@ -229,26 +256,26 @@ color-mix(in srgb, #272829, transparent 60%);
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
-  color: #ffffff;
+  color: #212529e8;
   background-color: color-mix(in srgb,#ffffff, transparent 50%);
-  border-color: color-mix(in srgb, #272829, transparent 80%);
+  border-color: color-mix(in srgb, #212529e8, transparent 80%);
 }
 
 .contact .contact-form input[type=text]:focus,
 .contact .contact-form input[type=email]:focus,
 .contact .contact-form textarea:focus {
-  border-color: #0563bb;
+  border-color: #212529e8;
 }
 
 .contact .contact-form input[type=text]::placeholder,
 .contact .contact-form input[type=email]::placeholder,
 .contact .contact-form textarea::placeholder {
-  color: color-mix(in srgb, #272829, transparent 70%);
+  color: color-mix(in srgb, #212529e8, transparent 70%);
 }
 
 .contact .contact-form button[type=submit] {
   color: #ffffff;
-  background: #0563bb;
+  background: #212529e8;
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;
@@ -256,15 +283,15 @@ color-mix(in srgb, #272829, transparent 60%);
 }
 
 .contact .contact-form button[type=submit]:hover {
-  background: color-mix(in srgb, #0563bb, transparent 25%);
+  background: color-mix(in srgb, #212529e8, transparent 25%);
 }
 
 @media (max-width: 450px) {
-  nav{
-    height: 2rem;
+  .navbar{
+    height: 4rem;
   }
   #hero  {
-    margin-top:2rem;min-height: 100vh;
+    margin-top:4rem;min-height: 100vh;
   }
 
 }
