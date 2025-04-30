@@ -11,17 +11,21 @@
   <meta name="keywords"
     content="Lavanya Chandran, UI Developer, Angular Developer, Tailwind CSS, PHP Developer, MySQL, Full Stack Developer, Magento Developer, Portfolio, Web Developer">
   <title>Lavanya Chandran | Portfolio</title>
-  <link href="assets/fonts/font-family.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="images/aboutme.jpg" type="image/png">
+  <!--Custom Css-->
   <link href="css/style.css" rel="stylesheet" />
-
+  <!--Bootstrap Icon-->
+  <link href="assets/icons/bootstrap-icons.css" rel="stylesheet" />
   <!--fontawesome icon-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <!--Bootstrap5 CSS CDN-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--Bootstrap5 JS CDN-->
   <script src="js/bootstrap.bundle.min.js"></script>
-  <!--animate-->
+  <!--Animate-->
   <link rel="stylesheet" href="assets/animate/animate.min.css" />
 
 
@@ -85,11 +89,11 @@
                 <p class="animate__animated animate__fadeInUp animate__delay-2s">
                   Crafting elegant, user-friendly web apps with 5+ years of professional experience.
                 </p>
-                <a href="#projects"
-                  class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInUp animate__delay-3s cursor-pointer">View
-                  My Work</a>
+                <a href="./pdf/Lavanya_CS.pdf" target="_blank"
+                  class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInUp animate__delay-3s cursor-pointer">Download
+                  Resume</a>
               </div>
-              <div class="col-12 col-md-6 text-center p-5">
+              <div class="col-12 col-md-6 text-center p-5 d-none d-md-flex justify-content-center align-items-center">
                 <img src="./images/aboutme.jpg" class="img-fluid animate__animated animate__zoomIn"
                   alt="Lavanya Chandran">
               </div>
@@ -109,11 +113,11 @@
                 <p class="animate__animated animate__fadeInDown animate__delay-2s">
                   I create intuitive interfaces that are fast, accessible, and responsive across devices.
                 </p>
-                <a href="#contact"
-                  class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInDown animate__delay-3s cursor-pointer">Let's
-                  Connect</a>
+                <a href="#projects"
+                  class="btn btn-outline-light btn-lg mt-3  animate__animated animate__fadeInUp animate__delay-3s cursor-pointer">View
+                  My Work</a>
               </div>
-              <div class="col-12 col-md-6 text-center p-5">
+              <div class="col-12 col-md-6 text-center p-5 d-none d-md-flex justify-content-center align-items-center">
                 <img src="./images/aboutme.jpg" class="img-fluid animate__animated animate__zoomIn"
                   alt="Lavanya Chandran">
               </div>
@@ -136,7 +140,7 @@
                   class="btn btn-outline-light btn-lg mt-3 animate__animated animate__fadeInLeft animate__delay-3s cursor-pointer">Hire
                   Me</a>
               </div>
-              <div class="col-12 col-md-6 text-center p-5">
+              <div class="col-12 col-md-6 text-center p-5 d-none d-md-flex justify-content-center align-items-center">
                 <img src="./images/aboutme.jpg" class="img-fluid animate__animated animate__zoomIn"
                   alt="Lavanya Chandran">
               </div>
@@ -200,9 +204,10 @@
     <div class="container">
       <h2 class="text-center default-4 mb-4 section-title">Services</h2>
       <div class="row align-items-center justify-content-center gap-4">
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 py-3 bg-white shadow rounded-3 border-2 border-dark">
+        <div class="col-10 col-sm-10 col-md-4 col-lg-3 py-3 bg-white shadow rounded-3 border-2 border-dark">
           <div class=" p-3 justify-content-start ">
 
+            <h5 class="default-5 mb-3"><i class="fas fa-pencil-ruler"></i></h5>
             <h4 class="default-4 mb-3">Designer</h4>
             <p class="cursor-pointer" data-bs-toggle="modal" data-bs-target="#designer">View More <i
                 class="fa-solid fa-arrow-right"></i></p>
@@ -210,8 +215,10 @@
 
 
         </div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 py-3 bg-white shadow rounded-3 border-2 border-dark">
+        <div class="col-10 col-sm-10 col-md-4 col-lg-3 py-3 bg-white shadow rounded-3 border-2 border-dark">
           <div class=" p-3 justify-content-start ">
+
+            <h5 class="default-5 mb-3"><i class="fas fa-laptop-code"></i></h5>
             <h4 class="default-4 mb-3">Developer</h4>
             <p class="cursor-pointer" data-bs-target="#developer" data-bs-toggle="modal">View More <i
                 class="fa-solid fa-arrow-right"></i></p>
@@ -288,7 +295,7 @@
   <section id="projects" class="bg-light py-5">
     <div class="container">
       <h2 class="text-center default-4 mb-4 section-title">Projects</h2>
-      <div class="row gap-x-4">
+      <div class="row gx-4">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 col-xl-4">
           <div class=" shadow-sm rounded project-item" data-bs-toggle="modal" data-bs-target="#citaaraModal">
             <img src="./images/citaara-web-step.png" alt="Citaara - Web Application"
@@ -318,6 +325,12 @@
                   <p>Created components for progress bars, timelines, and story cards to enhance user engagement.</p>
                   <p>Worked closely with the team to maintain design consistency and user-friendly experiences
                     throughout the platform.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="https://test.citaara.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
+
                 </div>
 
               </div>
@@ -354,7 +367,12 @@
                     all devices.</p>
                   <p>I continuously test and improve UI elements to maintain consistency and enhance usability.</p>
                 </div>
+                <div class="modal-footer">
+                  <a href="https://guidemyfolio.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
 
+                </div>
               </div>
             </div>
           </div>
@@ -397,6 +415,12 @@
                   </p>
                 </div>
 
+                <div class="modal-footer">
+                  <a href="https://www.meaningsphere.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
+
+                </div>
 
               </div>
             </div>
@@ -441,6 +465,12 @@
                     services.</p>
                 </div>
 
+                <div class="modal-footer">
+                  <a href="https://www.nuhospitals.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
+
+                </div>
 
               </div>
             </div>
@@ -484,7 +514,12 @@
                     integration.</p>
                 </div>
 
+                <div class="modal-footer">
+                  <a href="https://www.beurerindia.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
 
+                </div>
               </div>
             </div>
           </div>
@@ -523,6 +558,12 @@
 
                   <p>My responsibilities also included optimizing the site for performance and troubleshooting any
                     issues related to functionality and user experience.</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="https://www.arabcal.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
+
                 </div>
 
 
@@ -569,6 +610,13 @@
                     functionality and user experience.</p>
                 </div>
 
+                <div class="modal-footer">
+                  <a href="https://www.greenvalleycampus.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
+
+                </div>
+
 
 
               </div>
@@ -613,6 +661,12 @@
                 </div>
 
 
+                <div class="modal-footer">
+                  <a href="https://www.medisouq.com/" target="_blank"
+                    class="btn btn-outline-dark animate__animated animate__fadeInUp animate__delay-1s cursor-pointer">Visit
+                    Website</a>
+
+                </div>
 
               </div>
             </div>
@@ -625,6 +679,9 @@
       </div>
     </div>
   </section>
+
+
+
   <section id="qualifications" class="bg-white py-5">
     <div class="container">
       <h2 class="text-center default-4 mb-4 section-title">Qualifications</h2>
@@ -633,12 +690,12 @@
       <!-- Nav Tabs -->
       <ul class="nav nav-pills justify-content-center mb-4" id="qualificationTabs" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active fw-medium fs-5 text-black" id="experience-tab" data-bs-toggle="pill"
+          <button class="nav-link active fw-medium fs-6 fs-lg-5 text-black" id="experience-tab" data-bs-toggle="pill"
             data-bs-target="#experience" type="button" role="tab"><i
               class="fa-solid fa-briefcase me-2"></i>Experience</button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link text-black fw-medium fs-5" id="education-tab" data-bs-toggle="pill"
+          <button class="nav-link text-black fw-medium fs-6 fs-md-5" id="education-tab" data-bs-toggle="pill"
             data-bs-target="#education" type="button" role="tab"><i class="fa-solid fa-chalkboard me-2"></i>
             Education</button>
         </li>
@@ -648,54 +705,52 @@
       <div class="tab-content d-flex justify-content-center align-items-center flex-column"
         id="qualificationTabsContent">
         <!-- Experience Tab -->
-        <div class="tab-pane fade show active" id="experience" role="tabpanel">
-          <div class="position-relative ms-4 border-start border-2 border-dark ">
-            <div class="mb-5 position-relative">
-              <div class="position-absolute top-0 start-0 translate-middle bg-dark-theme rounded-circle card-img"></div>
-              <div class="ms-4 card-align position-relative">
-                <h5 class="fw-semibold mb-1">Front-end Developer</h5>
-                <p class="mb-0">Wegren Technologies</p>
-                <small class="text-muted"><i class="bi bi-calendar3"></i> Mar 2022 – Dec 2024</small>
-              </div>
-            </div>
-            <div class="mb-5 position-relative">
-              <div class="position-absolute top-0 start-0 translate-middle bg-dark-theme rounded-circle card-img"></div>
-              <div class="ms-4 card-align position-relative">
-                <h5 class="fw-semibold mb-1">Web Developer</h5>
-                <p class="mb-0">Webeaz Technologies</p>
-                <small class="text-muted"><i class="bi bi-calendar3"></i> Oct 2018 – Nov 2019</small>
-              </div>
-            </div>
-            <div class="position-relative">
-              <div class="position-absolute top-0 start-0 translate-middle bg-dark-theme rounded-circle card-img"></div>
-              <div class="ms-4 card-align position-relative">
-                <h5 class="fw-semibold mb-1">Software Developer</h5>
-                <p class="mb-0">Praistma Technologies</p>
-                <small class="text-muted"><i class="bi bi-calendar3"></i> Mar 2017 – Oct 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Education Tab -->
-        <div class="tab-pane fade " id="education" role="tabpanel">
-          <div class="position-relative ms-4 border-start border-2 border-dark">
-            <div class="mb-5 position-relative">
-              <div class="position-absolute top-0 start-0 translate-middle bg-dark-theme rounded-circle card-img"></div>
-              <div class="ms-4 card-align position-relative">
-                <h5 class="fw-semibold mb-1">BE - Electronics and Communication Engineering</h5>
-                <p class="mb-0">Anna University</p>
-                <small class="text-muted"><i class="bi bi-calendar3"></i> 2012 – 2016</small>
+        <div class="tab-pane w-100 fade show active" id="experience" role="tabpanel">
+          <div class="timeline ">
+
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <div class="timeline-title">Front-end Developer</div>
+                <div class="timeline-subtitle">Wegren Technologies</div>
+                <div class="timeline-date"><i class="fas fa-calendar"></i> Mar 2022 – Dec 2024</div>
               </div>
             </div>
 
+            <div class="timeline-item right">
+              <div class="timeline-content">
+                <div class="timeline-title">Web Developer</div>
+                <div class="timeline-subtitle">Webeaz Technologies</div>
+                <div class="timeline-date"><i class="fas fa-calendar"></i> Oct 2018 – Nov 2019</div>
+              </div>
+            </div>
 
+            <div class="timeline-item left">
+              <div class="timeline-content">
+                <div class="timeline-title">Software Developer</div>
+                <div class="timeline-subtitle">Praistma Technologies</div>
+                <div class="timeline-date"><i class="fas fa-calendar"></i> Mar 2017 – Oct 2018</div>
+              </div>
+            </div>
 
           </div>
         </div>
-
-
-
       </div>
+      <!-- Education Tab -->
+      <div class="tab-pane fade w-full" id="education" role="tabpanel">
+        <div class="timeline">
+          <div class="timeline-item right">
+            <div class="timeline-content">
+              <div class="timeline-title">B.E - Electronics and Communication Engineering</div>
+              <div class="timeline-subtitle">Anna University</div>
+              <div class="timeline-date"><i class="fas fa-calendar"></i> 2012 – 2016</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
     </div>
 
 
@@ -703,76 +758,100 @@
   <section id="skills" class="bg-light py-5">
     <div class="container">
       <h2 class="text-center default-4 mb-4 section-title">My Skills</h2>
-    <div class="row g-4">
+      <div class="row gap-y-4">
 
-      <!-- Frontend Skills -->
-      <div class="col-md-4">
-        <div class="card border-dark">
-          <div class="card-header bg-dark text-white">
-            <i class="fas fa-code"></i> Frontend Development
-          </div>
-          <div class="card-body">
-            <div><i class="fab fa-html5 skill-icon"></i>HTML5</div>
-            <div class="progress my-2"><div class="progress-bar bg-progress" style="width: 95%;">95%</div></div>
+        <!-- Frontend Skills -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-dark">
+            <div class="card-header bg-dark text-white">
+              <i class="fas fa-code"></i> Frontend Development
+            </div>
+            <div class="card-body">
+              <div><i class="fab fa-html5 skill-icon"></i>HTML5</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 95%;">95%</div>
+              </div>
 
-            <div><i class="fab fa-css3-alt skill-icon"></i>CSS3 / LESS</div>
-            <div class="progress my-2"><div class="progress-bar bg-progress" style="width: 90%;">90%</div></div>
+              <div><i class="fab fa-css3-alt skill-icon"></i>CSS3 / LESS</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 90%;">90%</div>
+              </div>
 
-            <div><i class="fab fa-bootstrap skill-icon"></i>Bootstrap 3 / 4 / 5</div>
-            <div class="progress my-2"><div class="progress-bar bg-progress" style="width: 90%;">90%</div></div>
+              <div><i class="fab fa-bootstrap skill-icon"></i>Bootstrap 3 / 4 / 5</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 90%;">90%</div>
+              </div>
 
-            <div><i class="fas fa-fill-drip skill-icon"></i>Tailwind CSS</div>
-            <div class="progress my-2"><div class="progress-bar bg-progress" style="width: 85%;">85%</div></div>
+              <div><i class="fas fa-fill-drip skill-icon"></i>Tailwind CSS</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 85%;">85%</div>
+              </div>
 
-            <div><i class="fab fa-js skill-icon"></i>JavaScript</div>
-            <div class="progress my-2"><div class="progress-bar bg-progress" style="width: 50%;">50%</div></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Backend Skills -->
-      <div class="col-md-4">
-        <div class="card border-dark">
-          <div class="card-header bg-dark text-white">
-            <i class="fas fa-server"></i> Backend & Database
-          </div>
-          <div class="card-body">
-            <div><i class="fas fa-code skill-icon"></i>Core PHP</div>
-            <div class="progress my-2"><div class="progress-bar bg-info" style="width: 80%;">80%</div></div>
-
-            <div><i class="fas fa-database skill-icon"></i>MySQL</div>
-            <div class="progress my-2"><div class="progress-bar bg-info" style="width: 85%;">85%</div></div>
-
-            <div><i class="fas fa-shopping-cart skill-icon"></i>Magento 2.3.x</div>
-            <div class="progress"><div class="progress-bar bg-info" style="width: 80%;">80%</div></div>
+              <div><i class="fab fa-js skill-icon"></i>JavaScript</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 50%;">50%</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Tools & Version Control -->
-      <div class="col-md-4">
-        <div class="card border-dark">
-          <div class="card-header bg-dark text-white">
-            <i class="fas fa-tools"></i> Tools & Others
-          </div>
-          <div class="card-body">
-            <div><i class="fab fa-git-alt skill-icon"></i>Git & GitHub</div>
-            <div class="progress my-2"><div class="progress-bar bg-info" style="width: 85%;">85%</div></div>
+        <!-- Backend Skills -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-dark">
+            <div class="card-header bg-dark text-white">
+              <i class="fas fa-server"></i> Backend & Database
+            </div>
+            <div class="card-body">
+              <div><i class="fas fa-code skill-icon"></i>Core PHP</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 80%;">80%</div>
+              </div>
 
-            <div><i class="fas fa-desktop skill-icon"></i>Responsive Design</div>
-            <div class="progress my-2"><div class="progress-bar bg-info" style="width: 90%;">90%</div></div>
+              <div><i class="fas fa-database skill-icon"></i>MySQL</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 85%;">85%</div>
+              </div>
 
-            <div><i class="fas fa-globe skill-icon"></i>Cross-Browser Compatibility</div>
-            <div class="progress my-2"><div class="progress-bar bg-info" style="width: 85%;">85%</div></div>
-
-            <div><i class="fas fa-bug skill-icon"></i>Debugging & Testing</div>
-            <div class="progress"><div class="progress-bar bg-info" style="width: 80%;">80%</div></div>
+              <div><i class="fas fa-shopping-cart skill-icon"></i>Magento 2.3.x</div>
+              <div class="progress">
+                <div class="progress-bar bg-light-theme text-black" style="width: 80%;">80%</div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
+        <!-- Tools & Version Control -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card border-dark">
+            <div class="card-header bg-dark text-white">
+              <i class="fas fa-tools"></i> Tools & Others
+            </div>
+            <div class="card-body">
+              <div><i class="fab fa-git-alt skill-icon"></i>Git & GitHub</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 85%;">85%</div>
+              </div>
+
+              <div><i class="fas fa-desktop skill-icon"></i>Responsive Design</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 90%;">90%</div>
+              </div>
+
+              <div><i class="fas fa-globe skill-icon"></i>Cross-Browser Compatibility</div>
+              <div class="progress my-2">
+                <div class="progress-bar bg-light-theme text-black" style="width: 85%;">85%</div>
+              </div>
+
+              <div><i class="fas fa-bug skill-icon"></i>Debugging & Testing</div>
+              <div class="progress">
+                <div class="progress-bar bg-light-theme text-black" style="width: 80%;">80%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
 
     </div>
   </section>
@@ -785,56 +864,69 @@
           <div class="row gy-4">
 
             <div class="col-lg-4">
-              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-item d-flex animate__animated animate__fadeInUp">
                 <i class="fa-solid fa-location-dot flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Salem, Tamilnadu</p>
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-item d-flex animate__animated animate__fadeInUp animate__delay-1s">
                 <i class="fa-solid fa-phone flex-shrink-0"></i>
                 <div>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <p><a href="tel:09952770089">+91 9952770089</a></p>
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+              <div class="info-item d-flex animate__animated animate__fadeInUp animate__delay-2s">
                 <i class="fa fa-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <p><a href="mailto:lavanyachandranece@gmail.com" target="_blank">lavanyachandranece@gmail.com</a></p>
                 </div>
               </div><!-- End Info Item -->
 
+              <div class="info-item d-flex animate__animated animate__fadeInUp animate__delay-3s">
+                <i class="fa-brands fa-linkedin flex-shrink-0"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p><a href="https://www.linkedin.com/in/lavanya-cs/" target="_blank">Lavanya C S</a></p>
+                </div>
+              </div><!-- End Info Item -->
             </div>
 
+
             <div class="col-lg-8">
+
               <form action="" class="contact-form">
                 <div class="row gy-4">
-                  <div class="col-md-6">
+                  <div class="col-md-6 animate__animated animate__fadeInUp">
                     <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
                   </div>
 
-                  <div class="col-md-6">
+                  <div class="col-md-6 animate__animated animate__fadeInUp animate__delay-1s">
                     <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
                   </div>
+                  <div class="col-md-12 animate__animated animate__fadeInUp animate__delay-1s">
+                    <input type="tel" class="form-control" name="tel" placeholder="Your Phone" required="">
+                  </div>
 
-                  <div class="col-md-12">
+                  <div class="col-md-12 animate__animated animate__fadeInUp animate__delay-2s">
                     <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
                   </div>
 
-                  <div class="col-md-12">
+                  <div class="col-md-12 animate__animated animate__fadeInUp animate__delay-3s">
                     <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                   </div>
 
-                  <div class="col-md-12 text-center">
+                  <div class="col-md-12 text-center animate__animated animate__fadeInUp animate__delay-4s">
                     <button type="submit">Send Message</button>
                   </div>
                 </div>
               </form>
+
 
             </div><!-- End Contact Form -->
 
@@ -846,12 +938,38 @@
 
     </div>
   </section>
-  <footer class="text-center py-3 text-white text-white bg-dark-theme">
+
+  <footer class="bg-dark-theme text-white py-4">
     <div class="container">
-      <p class="mb-0">© 2025 Lavanya Chandran. All rights reserved.</p>
+      <div class="row justify-content-start text-start">
+        <!-- Navigation Links -->
+        <div class="col-md-4">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled gap-4">
+            <li class="py-1"><a href="#hero" class="text-white text-decoration-none">Home</a></li>
+            <li class="py-1"><a href="#about" class="text-white text-decoration-none">About</a></li>
+            <li class="py-1"><a href="#projects" class="text-white text-decoration-none">Portfolio</a></li>
+            <li class="py-1"><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="col-md-4 mb-3">
+          <h5>Follow Me</h5>
+          <a href="https://www.linkedin.com/in/lavanya-cs/" target="_blank" class="text-white me-3 fs-4"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/LavanyaCS" target="_blank" class="text-white me-3 fs-4"><i
+              class="fa-brands fa-github"></i></a>
+          <a href="mailto:lavanyachandranece@gmail.com" class="text-white me-3 fs-4"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="col-md-4 mb-3">
+          <h5>&copy; 2025 Lavanya Chandran</h5>
+          <p class="mb-0">All rights reserved.</p>
+        </div>
+      </div>
     </div>
   </footer>
-
 </body>
-
 </html>
